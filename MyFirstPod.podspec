@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'MyFirstPod'
+  s.name             = 'MyFirstPodGreenskiii'
   s.version          = '0.1.0'
   s.summary          = 'MyFirstPod is my first testing pod.'
 
