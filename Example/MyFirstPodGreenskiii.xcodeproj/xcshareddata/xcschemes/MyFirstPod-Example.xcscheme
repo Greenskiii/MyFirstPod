@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-               BuildableName = "MyFirstPod_Example.app"
-               BlueprintName = "MyFirstPod_Example"
-               ReferencedContainer = "container:MyFirstPod.xcodeproj">
+               BuildableName = "MyFirstPodGreenskiii_Example.app"
+               BlueprintName = "MyFirstPodGreenskiii_Example"
+               ReferencedContainer = "container:MyFirstPodGreenskiii.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "MyFirstPod_Tests.xctest"
-               BlueprintName = "MyFirstPod_Tests"
-               ReferencedContainer = "container:MyFirstPod.xcodeproj">
+               BuildableName = "MyFirstPodGreenskiii_Tests.xctest"
+               BlueprintName = "MyFirstPodGreenskiii_Tests"
+               ReferencedContainer = "container:MyFirstPodGreenskiii.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "MyFirstPod_Example.app"
-            BlueprintName = "MyFirstPod_Example"
-            ReferencedContainer = "container:MyFirstPod.xcodeproj">
+            BuildableName = "MyFirstPodGreenskiii_Example.app"
+            BlueprintName = "MyFirstPodGreenskiii_Example"
+            ReferencedContainer = "container:MyFirstPodGreenskiii.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <Testables>
@@ -56,9 +56,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "MyFirstPod_Tests.xctest"
-               BlueprintName = "MyFirstPod_Tests"
-               ReferencedContainer = "container:MyFirstPod.xcodeproj">
+               BuildableName = "MyFirstPodGreenskiii_Tests.xctest"
+               BlueprintName = "MyFirstPodGreenskiii_Tests"
+               ReferencedContainer = "container:MyFirstPodGreenskiii.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -78,9 +78,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "MyFirstPod_Example.app"
-            BlueprintName = "MyFirstPod_Example"
-            ReferencedContainer = "container:MyFirstPod.xcodeproj">
+            BuildableName = "MyFirstPodGreenskiii_Example.app"
+            BlueprintName = "MyFirstPodGreenskiii_Example"
+            ReferencedContainer = "container:MyFirstPodGreenskiii.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "MyFirstPod_Example.app"
-            BlueprintName = "MyFirstPod_Example"
-            ReferencedContainer = "container:MyFirstPod.xcodeproj">
+            BuildableName = "MyFirstPodGreenskiii_Example.app"
+            BlueprintName = "MyFirstPodGreenskiii_Example"
+            ReferencedContainer = "container:MyFirstPodGreenskiii.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
