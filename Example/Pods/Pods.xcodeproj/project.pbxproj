@@ -15,6 +15,7 @@
 		66C003F1C87B002FDAE16D900145B9EC /* MyFirstPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CF41891D399F03041F54F1DAE9904F /* MyFirstPod-dummy.m */; };
 		A311DAC0147149B3D0C496CD0F32208D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		A66AC2B18399E89BB73992CBB23970E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B84D810D2791EF300074C94D /* Pod.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84D810C2791EF2F0074C94D /* Pod.swift */; };
 		C5F1CC0D0A9BD73E8001B6B69F9BF936 /* MyFirstPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F55CAB9C669D121685CD1C88497D9FE5 /* MyFirstPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -52,6 +53,7 @@
 		97F245B4EC1A48EE4CDEE7DCCEF82F58 /* Pods-MyFirstPod_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MyFirstPod_Tests-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B6530CF6B8459E17BC8E5E3ABC0EA167 /* Pods-MyFirstPod_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyFirstPod_Example-Info.plist"; sourceTree = "<group>"; };
+		B84D810C2791EF2F0074C94D /* Pod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pod.swift; sourceTree = "<group>"; };
 		B85C17F16F8E8CA5F97B939D5C0900D5 /* MyFirstPod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MyFirstPod.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B8A59BFE35A473A3872DFFBC4D1D28EA /* Pods-MyFirstPod_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MyFirstPod_Example.modulemap"; sourceTree = "<group>"; };
 		B9CF41891D399F03041F54F1DAE9904F /* MyFirstPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MyFirstPod-dummy.m"; sourceTree = "<group>"; };
@@ -157,6 +159,7 @@
 		B84D810B2791E8750074C94D /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				B84D810C2791EF2F0074C94D /* Pod.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -322,6 +325,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					3C7839CEB8D4D770F24B4212B909A213 = {
+						LastSwiftMigration = 1300;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -389,6 +397,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				66C003F1C87B002FDAE16D900145B9EC /* MyFirstPod-dummy.m in Sources */,
+				B84D810D2791EF300074C94D /* Pod.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,6 +455,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C83BF12B42AE37D55B3E2A16BE871514 /* MyFirstPod.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -467,6 +477,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -609,6 +620,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FC06B8AC2E89A076B1D39B54CED172F5 /* MyFirstPod.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
