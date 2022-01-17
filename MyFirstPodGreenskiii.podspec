@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MyFirstPodGreenskiii'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'MyFirstPod is my first testing pod.'
 
 # This description is used to generate tags and improve search results.
@@ -37,7 +37,7 @@ Pod::Spec.new do |s|
   #   'MyFirstPod' => ['MyFirstPod/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  # s.public_header_files = 'Source/**/*.swift'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
