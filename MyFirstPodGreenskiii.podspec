@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MyFirstPodGreenskiii'
-  s.version          = '0.2.0'
+  s.version          = '0.4.0'
   s.summary          = 'MyFirstPod is my first testing pod.'
 
 # This description is used to generate tags and improve search results.
